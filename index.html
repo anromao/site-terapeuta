@@ -45,10 +45,22 @@
             <span class="nav-logo-sub">Terapeuta · Reprocessamento Regenerativo</span>
           </div>
         </a>
+        <!-- Checkbox e botão para acionar o menu hambúrguer sem JavaScript (CSS puro) -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Alternar menu de navegação" />
+        <label for="menu-toggle" class="menu-btn" aria-label="Abrir menu de navegação">
+          <span class="menu-icon-barra"></span>
+          <span class="menu-icon-barra"></span>
+          <span class="menu-icon-barra"></span>
+        </label>
+
+        <!-- Overlay para fechar o menu ao clicar fora -->
+        <label for="menu-toggle" class="menu-overlay" aria-hidden="true"></label>
+
         <ul class="nav-links" role="list">
-          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#hero">Início</a></li>
           <li><a href="#pilares">Pilares</a></li>
           <li><a href="#transformacao">Transformação</a></li>
+          <li><a href="#sobre">Sobre</a></li>
           <li><a href="#tratamentos">Tratamentos</a></li>
           <li><a href="#depoimentos">Depoimentos</a></li>
           <li>
